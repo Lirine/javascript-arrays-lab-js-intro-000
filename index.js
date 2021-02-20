@@ -15,5 +15,4 @@ function destructivelyRemoveFirstKitten() {
 }
 function appendKitten(name) {
 return [...kittens, name];
-console.log([...kittens, name])
 }
