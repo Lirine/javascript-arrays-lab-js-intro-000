@@ -20,11 +20,10 @@ function prependKitten(name) {
   return [name, ...kittens];
 }
 function removeLastKitten() {
-  let arr = kittens.slice(3);
+  let arr = kittens.slice(0,2);
   return arr;
 }
 function removeFirstKitten() {
   let arr = kittens.slice(1);
-  console.log(arr);
   return arr;
 }
