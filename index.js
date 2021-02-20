@@ -17,4 +17,3 @@ function appendKitten(name) {
   const kittens2 = [name, ...kittens];
   return kittens2;
 }
-
